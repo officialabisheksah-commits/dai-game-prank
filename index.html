@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11142f">
+    <meta
+      name="description"
+      content="A high-stakes (not really) Brawl Stars invitation for the best duo."
+    >
+    <title>Dai-Bhai Brawl Stars Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-glow page-glow--left" aria-hidden="true"></div>
+    <div class="page-glow page-glow--right" aria-hidden="true"></div>
+
+    <main class="game-shell">
+      <div class="top-badge" aria-hidden="true">
+        <span class="top-badge__icon">⚡</span>
+        <span>DUO INVITE • ONE NIGHT ONLY</span>
+        <span class="top-badge__icon">⚡</span>
+      </div>
+
+      <section class="invite-card" id="invite-screen" aria-labelledby="invite-title">
+        <span class="spark spark--one" aria-hidden="true">✦</span>
+        <span class="spark spark--two" aria-hidden="true">★</span>
+        <span class="spark spark--three" aria-hidden="true">✦</span>
+
+        <div class="mini-heading">DAI-BHAI GAMING ALERT 🎮</div>
+
+        <div class="trophy-mark" aria-hidden="true">
+          <span class="trophy-mark__emoji">🏆</span>
+          <span class="trophy-mark__shine">✦</span>
+        </div>
+
+        <h1 id="invite-title">YOO DAIII!! 🎮🔥</h1>
+        <p class="invite-message">Aaja raati 9 bajey game pelni haii? 😈</p>
+
+        <div class="versus-label" aria-hidden="true">
+          <span></span> DUO QUEUE? <span></span>
+        </div>
+
+        <div class="button-arena" id="button-arena">
+          <button class="game-button game-button--yes" id="yes-button" type="button">
+            YESS, MERO BHAII PELNII HOO!!! 🔥
+          </button>
+          <button
+            class="game-button game-button--no"
+            id="no-button"
+            type="button"
+            tabindex="-1"
+            aria-disabled="true"
+            aria-describedby="dodge-hint"
+          >
+            NA KHELAM HOLA AAJA 😴
+          </button>
+        </div>
+        <p class="dodge-hint" id="dodge-hint" aria-live="polite">
+          Pick your fighter. (The red button is feeling suspicious…)
+        </p>
+
+        <div class="card-footer" aria-hidden="true">
+          <span>POWERED BY BROTHERHOOD</span>
+          <span class="card-footer__stars">★ ★ ★</span>
+        </div>
+      </section>
+
+      <section
+        class="invite-card celebration-card"
+        id="celebration-screen"
+        aria-labelledby="celebration-title"
+        hidden
+      >
+        <div class="celebration-art" aria-hidden="true">
+          <span class="celebration-art__bolt">⚡</span>
+          <span class="celebration-art__trophy">🏆</span>
+          <span class="celebration-art__star">🌟</span>
+        </div>
+        <div class="mini-heading">DUO STATUS: UNSTOPPABLE</div>
+        <h1 id="celebration-title">LET'S GOOOO PELAM SAB LAII!! 🔥🏆</h1>
+        <p class="invite-message">
+          Aaja raati 9 bajey full pelaii!! Mero bhaii best duo hooo!! 😎💚
+        </p>
+        <div class="victory-stamp" aria-hidden="true">VICTORY!</div>
+        <div class="confetti-field" id="confetti-field" aria-hidden="true"></div>
+        <button class="game-button game-button--yes replay-button" id="replay-button" type="button">
+          RUN IT BACK? 🎮
+        </button>
+        <div class="card-footer" aria-hidden="true">
+          <span>GG EZ (FAMILY EDITION)</span>
+          <span class="card-footer__stars">★ ★ ★</span>
+        </div>
+      </section>
+
+      <p class="page-note">NO actual trophies or siblings were harmed in this challenge.</p>
+    </main>
+  </body>
+</html>
